@@ -10,17 +10,24 @@ O cliente arquiva o post antigo pelo app; a rotina só informa qual é.
 ## Fila
 `refazer/fila.json`: posts antigos em ordem cronológica (mais antigo primeiro).
 - `pendente`: a refazer · `refeito`: já republicado · `pular`: não refazer (o motivo está no item).
+- `agendado`: refazer só no dia `data_alvo` (datas comemorativas). Nesse dia ele tem prioridade sobre a fila.
+- `aguardando_confirmacao`: NÃO publicar até o cliente confirmar nesta conversa (o item diz o porquê).
+- Leia sempre o campo `observacao` do item: ele traz instruções específicas
+  (ex.: carrossel → `create_carousel_post`; Reels → imagem única; anúncio de cliente autorizado a citar o nome).
+- O cliente pediu (29/10/2026) para refazer TODOS os posts, inclusive anúncios de clientes.
 
 ## Passo a passo
 1. Se já existir item com `status: "refeito"` e `data_refeito` igual a hoje, pare (1 por dia).
-2. Pegue o primeiro item `pendente`. Leia `legenda_original` e extraia a **tese**.
+2. Se houver item `agendado` com `data_alvo` igual a hoje, use-o. Senão, pegue o primeiro `pendente`.
+   Leia `legenda_original` e `observacao` e extraia a **tese**.
    Se a tese for igual à de um item já refeito (posts duplicados), marque `pular` com motivo
    "duplicado de <media_id>" e pegue o próximo.
 3. Recrie a peça seguindo TODAS as regras de formato, verdade e QA do ROTINA.md e da Base Mestre:
    - mesma ideia central, headline reescrita no padrão Gabriel (curta, forte, para o empresário);
    - **corrija a verdade**: remova números não oficiais, promessas de resultado, garantias,
      "devolvemos seu dinheiro", urgência falsa. Use só os fatos da Seção 1 das instruções do projeto;
-   - sem nome ou logo de cliente; sem barras, ícones, listas ou CTA na arte;
+   - sem logo de cliente; nome de cliente só nos anúncios de cliente, e só como estava no original;
+     sem barras, ícones, listas ou CTA na arte;
    - fundo e composição de arcos diferentes do post das 8h de hoje e dos últimos 3 em `posts/historico.json`.
 4. Arquivos em `refazer/AAAA-MM-DD_slug.html` e `.jpg` (1080×1350, JPEG 90). Abra a imagem e confira.
 5. Legenda nova: gancho, 2–4 frases, CTA "O próximo contrato começa com uma conversa. Fale com nosso
