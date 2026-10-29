@@ -1,0 +1,50 @@
+/* Sistema visual Santos & Portela — base dos posts 1080x1350 */
+:root {
+  --navy: #051A34;
+  --gold: #AE7435;
+  --cream: #F5F1EA;
+  --white: #F5F1EA;
+  --slate: #8A94A3;
+  --ink-soft: #4E5866;
+  --serif: "TeX Gyre Pagella", "Palatino Linotype", Palatino, serif; /* provisória até The Seasons */
+  --sans: "Inter", sans-serif;
+  --margin: 96px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; }
+body { position: relative; font-family: var(--serif); -webkit-font-smoothing: antialiased; }
+/* Fundo escuro = mesmo fundo do hero do site: brilho azul à direita + degradê vertical */
+body.escuro { color: var(--white);
+  background: radial-gradient(1500px 900px at 85% 40%, rgba(26,53,87,0.55), rgba(0,0,0,0) 60%),
+              linear-gradient(#071A33 0%, #050F20 100%); }
+/* Fundo claro = versão creme da mesma linguagem */
+body.claro { color: var(--navy);
+  background: radial-gradient(1500px 900px at 85% 40%, rgba(255,255,255,0.65), rgba(255,255,255,0) 60%),
+              linear-gradient(#F5F1EA 0%, #EFE9DF 100%); }
+/* Grade do site: quadrados de 80px que somem da esquerda para a direita */
+body::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-size: 80px 80px;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, transparent 55%);
+          mask-image: linear-gradient(90deg, #000 0%, transparent 55%); }
+body.escuro::before { background-image:
+  linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px); }
+body.claro::before { background-image:
+  linear-gradient(rgba(5,26,52,0.07) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(5,26,52,0.07) 1px, transparent 1px); }
+body > * { z-index: 1; }
+
+.headline { position: absolute; left: var(--margin); right: var(--margin);
+  font-size: 88px; line-height: 1.17; font-weight: 400; letter-spacing: -0.5px; }
+.headline em { font-style: italic; color: var(--gold); display: block; }
+.sub { position: absolute; left: var(--margin); font-family: var(--sans);
+  font-size: 27px; line-height: 1.9; font-weight: 400; }
+body.escuro .sub { color: #B7BDC6; }
+body.claro .sub { color: var(--ink-soft); }
+.label { font-family: var(--sans); font-size: 21px; font-weight: 500; letter-spacing: 0.5px; }
+/* Faixa reservada à logo oficial (aplicada pelo render.py): y 1140–1300 */
+
+/* Bloco de texto padrão: posição e largura vêm da composição de arcos (arcos.js) */
+.bloco { position: absolute; left: var(--margin); top: var(--text-top, 400px); width: var(--text-w, 888px); z-index: 2; }
+.bloco .headline, .bloco .sub { position: static; }
+.bloco .sub { margin-top: 40px; max-width: 640px; }
