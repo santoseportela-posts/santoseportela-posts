@@ -13,7 +13,7 @@
     // composição do topo do site (hero), com o único arco dourado
     coluna:   { top: 150, w: 690, arcs: [C(400,0,90), C(400,210,0), C(190,420,270), C(400,420,180,true), C(400,630,90), C(190,630,0)] },
     // um arco grande saindo do canto superior direito (seções Contato / História)
-    canto:    { top: 470, w: 888, arcs: [[740, -200, 520, 0, false]] },
+    canto:    { top: 470, w: 888, arcs: [[700, -60, 400, 0, false]] },
     // canto superior direito + canto inferior esquerdo (Trajetória / Equipe)
     diagonal: { top: 400, w: 800, arcs: [[800, -110, 390, 0, true], [-110, 1020, 330, 180, false]] },
     // "S" vertical à direita (seção Resumo executivo)
