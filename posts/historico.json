@@ -1,25 +1,39 @@
 [
-  {
-    "data": "2026-10-29",
-    "arquivo": "posts/2026-10-29_9-8-bilhoes.jpg",
-    "headline": "R$ 9,8 bilhões em licitações ganhas. Nenhum centavo no improviso.",
-    "pilar": "Expertise e números oficiais",
-    "mecanismo": "dado comprovado + contraste",
-    "composicao": "canto",
-    "fundo": "escuro",
-    "status": "publicado",
-    "media_id": "18169361578465586"
-  },
-  {
-    "data": "2026-10-30",
-    "arquivo": "posts/2026-10-30_certidao-vencida.jpg",
-    "headline": "O melhor preço não salva uma certidão vencida.",
-    "subheadline": "Na licitação, documento e prazo pesam tanto quanto o valor da proposta.",
-    "pilar": "Sobre licitações",
-    "mecanismo": "contraste + consequência",
-    "composicao": "diagonal",
-    "fundo": "claro",
-    "status": "publicado",
-    "media_id": "18034344719899654"
-  }
+ {
+  "data": "2026-10-29",
+  "arquivo": "posts/2026-10-29_9-8-bilhoes.jpg",
+  "headline": "R$ 9,8 bilhões em licitações ganhas. Nenhum centavo no improviso.",
+  "pilar": "Expertise e números oficiais",
+  "mecanismo": "dado comprovado + contraste",
+  "composicao": "canto",
+  "fundo": "escuro",
+  "status": "publicado",
+  "media_id": "18169361578465586"
+ },
+ {
+  "data": "2026-10-30",
+  "arquivo": "posts/2026-10-30_certidao-vencida.jpg",
+  "headline": "O melhor preço não salva uma certidão vencida.",
+  "subheadline": "Na licitação, documento e prazo pesam tanto quanto o valor da proposta.",
+  "pilar": "Sobre licitações",
+  "mecanismo": "contraste + consequência",
+  "composicao": "diagonal",
+  "fundo": "claro",
+  "status": "publicado",
+  "media_id": "18034344719899654"
+ },
+ {
+  "data": "2026-10-30",
+  "rotina": "17h-refazer",
+  "arquivo": "refazer/2026-10-30_sorte-nao-tem-lugar.jpg",
+  "headline": "Sorte não tem lugar no edital. Método tem.",
+  "subheadline": "Estratégia, execução e segurança, do edital à gestão do contrato.",
+  "pilar": "Sobre a assessoria",
+  "mecanismo": "contraste",
+  "composicao": "s",
+  "fundo": "escuro",
+  "status": "publicado",
+  "media_id": "18115938176033059",
+  "refaz_media_id": "18121003063512553"
+ }
 ]
