@@ -1,0 +1,25 @@
+{
+ "fundo": "escuro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Nascemos em 2009,",
+    "em Campos dos",
+    "Goytacazes."
+   ],
+   "em": "No interior do Rio.",
+   "dur": 4.6
+  },
+  {
+   "linhas": [
+    "Em agosto de 2026,",
+    "inauguramos a nova",
+    "matriz em Alphaville."
+   ],
+   "em": "Perto do maior volume de licitações do país.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
