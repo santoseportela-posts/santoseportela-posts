@@ -1,13 +1,27 @@
 # Rotina das 12h30: terceiro post (complementar)
 
 Roda de segunda a sexta, perto das 12h30 (horário de Brasília). **Publicação automática, sem aprovação**
-(autorizada pelo cliente em 02/11/2026, após aprovar o Reels de teste). Fim de semana: não publicar.
+(autorizada pelo cliente em 02/11/2026, que aprovou o Reels de teste). Fim de semana: não publicar.
 
 - **Segunda, quarta, sexta → Reels "Curiosidades da Santos & Portela"** (vídeo 9:16, 10–14 s).
 - **Terça, quinta → Carrossel educativo sobre licitações** (5–7 slides 4:5).
 
 O formato muda de propósito: os posts das 8h e das 17h são imagens únicas. Não repetir aqui o tema
 nem a headline do post das 8h do mesmo dia; quando fizer sentido, **complementar** o tema do dia.
+
+## Já aprovado: quarta-feira 04/11/2026
+Neste dia NÃO crie um Reels novo: publique o vídeo já aprovado pelo cliente,
+`reels/2026-11-04_campos-alphaville.mp4` (roteiro no .json ao lado), com esta legenda:
+
+"Tudo começou em 2009, em Campos dos Goytacazes, no interior do Rio. Uma convicção guiava a gente: empresas competentes perdiam contratos públicos por falta de método, não de capacidade.
+
+Em agosto de 2026, inauguramos a nova matriz em Alphaville, perto do maior volume de licitações do país. Campos e Vitória seguem ativas como filiais.
+
+Do interior do Rio para o centro do mercado público brasileiro.
+
+O próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039.
+
+#santoseportela #licitacoes #mercadopublico #alphaville #curiosidades"
 
 ## Reels: curiosidades da Santos & Portela
 Ferramentas: `kit/reels.py` + `kit/reels.html` (modelo: `reels/2026-11-04_campos-alphaville.json`).
