@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Também atuamos",
+    "do outro lado",
+    "do balcão."
+   ],
+   "em": "Já treinamos e assessoramos 123 órgãos públicos.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Conhecer como",
+    "o órgão público",
+    "trabalha muda a",
+    "forma de disputar."
+   ],
+   "em": "Experiência dos dois lados do balcão.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
