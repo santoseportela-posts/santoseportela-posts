@@ -13,8 +13,9 @@
   "arquivo": "reels/2026-11-04_campos-alphaville.mp4",
   "curiosidade": "Nascemos em 2009 em Campos dos Goytacazes; em agosto de 2026 inauguramos a nova matriz em Alphaville/SP.",
   "fundo": "escuro",
-  "media_id": null,
-  "status": "nao_confirmado",
-  "observacao": "create_video_post enviado às ~12h08 (BRT); a ferramenta Windsor.ai expirou (timeout de 180 s) sem retornar media_id. Não reenviado para evitar post duplicado. Até 12h15 o post não aparecia nos dados (cache) do Windsor. Conferir no perfil."
+  "media_id": "18497196172109907",
+  "status": "publicado",
+  "observacao": "1ª tentativa (~12h08) expirou sem publicar (cliente confirmou que não foi ao ar); republicado com sucesso na 2ª tentativa.",
+  "caption": "Tudo começou em 2009, em Campos dos Goytacazes, no interior do Rio. Uma convicção guiava a gente: empresas competentes perdiam contratos públicos por falta de método, não de capacidade.\n\nEm agosto de 2026, inauguramos a nova matriz em Alphaville, perto do maior volume de licitações do país. Campos e Vitória seguem ativas como filiais.\n\nDo interior do Rio para o centro do mercado público brasileiro.\n\nO próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039.\n\n#santoseportela #licitacoes #mercadopublico #alphaville #curiosidades"
  }
 ]
