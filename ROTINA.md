@@ -39,6 +39,6 @@ Público: donos, sócios, CEOs e diretores de empresas de médio e grande porte 
 8. Aguardar ~60 s. URL da imagem:
    `https://raw.githubusercontent.com/santoseportela-posts/santoseportela-posts/main/posts/X.jpg`
 9. Publicar com Windsor.ai: connector `instagram`, action `create_image_post`, account `17841467778795999`,
-   params `{image_url, caption}`. Se falhar, tentar 1 vez após 2 min. Não publicar duas vezes no mesmo dia.
+   params `{image_url, caption}`. **Siga o PUBLICACAO.md** (verificação + até 3 tentativas). Não publicar duas vezes no mesmo dia.
 10. Atualizar o status no histórico (publicado / falhou + motivo), commit e push.
 11. Enviar ao cliente uma mensagem curta com a headline, a imagem e o resultado da publicação.

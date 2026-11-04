@@ -32,7 +32,7 @@ O cliente arquiva o post antigo pelo app; a rotina só informa qual é.
 4. Arquivos em `refazer/AAAA-MM-DD_slug.html` e `.jpg` (1080×1350, JPEG 90). Abra a imagem e confira.
 5. Legenda nova: gancho, 2–4 frases, CTA "O próximo contrato começa com uma conversa. Fale com nosso
    time: (11) 93624-7039." e 3–5 hashtags. Não copie a legenda antiga.
-6. Commit/push para `main`, aguarde ~60 s e publique com Windsor.ai: connector `instagram`,
+6. Commit/push para `main`, aguarde ~60 s e publique seguindo o **PUBLICACAO.md** (verificação + até 3 tentativas) com Windsor.ai: connector `instagram`,
    action `create_image_post`, account `17841467778795999`, `image_url` =
    `https://raw.githubusercontent.com/santoseportela-posts/santoseportela-posts/main/refazer/<arquivo>.jpg`.
 7. No item da fila: `status: "refeito"`, `data_refeito`, `novo_media_id`, `nova_headline`, `arquivo`.

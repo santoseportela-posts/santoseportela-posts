@@ -33,7 +33,7 @@ Ferramentas: `kit/reels.py` + `kit/reels.html` (modelo: `reels/2026-11-04_campos
 3. Alternar `fundo` escuro/claro em relação ao último Reels.
 4. Gerar quadros de conferência (`--stills`) e **olhar**: texto cortado, sobreposição com os arcos,
    ortografia. Depois o vídeo completo: `python3 kit/reels.py roteiro.json reels/AAAA-MM-DD_slug.mp4`.
-5. Commit/push, aguardar ~60 s e publicar: Windsor.ai, connector `instagram`, action `create_video_post`,
+5. Commit/push, aguardar ~60 s e publicar seguindo o **PUBLICACAO.md** (verificação + até 3 tentativas): Windsor.ai, connector `instagram`, action `create_video_post`,
    account `17841467778795999`, `video_url` = raw.githubusercontent.com do MP4, `share_to_feed: true`, `caption`.
 6. Registrar em `reels/historico.json` (data, curiosidade, fundo, media_id, status). Commit/push.
 
@@ -67,7 +67,7 @@ Ferramentas: `kit/render.py` (um HTML por slide, como em `posts/2026-11-02_novo-
 3. Slide 1: gancho forte (headline + `em`). Slides do meio: 1 ideia por slide, até 25 palavras.
    Último slide: "O próximo contrato começa com uma conversa." + `em` santoseportela.com.br.
    Mesmo visual de sempre (fundos do site, arcos, logo pelo render.py, sem barras/ícones/listas).
-4. Conferir cada slide renderizado. Publicar com `create_carousel_post` (2 a 10 `image_urls`, na ordem).
+4. Conferir cada slide renderizado. Publicar (seguindo o **PUBLICACAO.md**) com `create_carousel_post` (2 a 10 `image_urls`, na ordem).
 5. Registrar em `carrosseis/historico.json`. Commit/push.
 
 ## Legenda (ambos)
