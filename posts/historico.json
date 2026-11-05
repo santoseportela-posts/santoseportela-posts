@@ -172,5 +172,21 @@
     "tentativas": 1,
     "refaz_media_id": "18068164190242105",
     "observacao": "original era Reels; refeito como imagem única, sem 'contratos milionários' nem 'maior comprador do país'"
+  },
+  {
+    "data": "2026-11-05",
+    "rotina": "17h-refazer",
+    "arquivo": "refazer/2026-11-05_aposta-ou-estrategia.jpg",
+    "headline": "Licitação de vez em quando é aposta. Com método, é estratégia.",
+    "subheadline": "Gestão completa, do edital à homologação.",
+    "pilar": "Sobre a assessoria (método)",
+    "mecanismo": "contraste",
+    "composicao": "diagonal",
+    "fundo": "claro",
+    "status": "publicado",
+    "media_id": "17959101999277454",
+    "tentativas": 1,
+    "refaz_media_id": "18086642579130924",
+    "observacao": "removidos 'fonte contínua de receita', 'faturamento previsível' e 'garantindo segurança' do original"
   }
 ]
