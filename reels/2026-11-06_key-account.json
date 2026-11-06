@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Cada cliente nosso",
+    "tem um Key Account",
+    "dedicado."
+   ],
+   "em": "Desde o primeiro edital.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "E segue junto",
+    "até a gestão",
+    "do contrato."
+   ],
+   "em": "Licitação não admite improviso.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
