@@ -18,13 +18,14 @@ Publicação **automática, sem aprovação prévia**, conforme autorizado pelo 
 - Logo: nunca escrever/desenhar. O `render.py` aplica o PNG oficial no rodapé automaticamente.
 - Fonte provisória: TeX Gyre Pagella (até o cliente enviar a The Seasons).
 
-## Pilares (girar; não repetir o pilar do dia anterior)
+## Pilares (girar; não repetir o pilar do dia anterior; pilar 7 intercalado dia sim, dia não)
 1. Expertise e números oficiais (R$ 9,8 bi+, 28 mil+ processos, 115+ clientes, 17 anos, 123 órgãos, 36 clientes há 10+ anos).
 2. O que fazemos pelos clientes (captação nacional, gestão completa, inteligência competitiva, atuação jurídica, Key Account, resumo executivo).
 3. Como licitações ajudam empresas a faturar mais (receita recorrente, contratos, previsibilidade, expansão de território) — sem prometer vitória nem inventar números.
 4. Sobre licitações (Lei 14.133/2021, erros que custam contrato: documento, prazo, preço, habilitação).
 5. Sobre a assessoria (método Estratégia → Execução → Segurança, dois lados do balcão, certificações).
 6. Segmentos (um por vez: Limpeza, Obras, Tecnologia, Saúde, Alimentação, Transporte, Segurança, Mobiliário, Medicamentos, Engenharia).
+7. **Tecnologia própria** (funcionalidades do sistema Santos & Portela: painel do cliente/Oportunidades e painel do escritório). Regras, banco de funcionalidades e proibições em **SISTEMA.md**. **Intercalar um a um:** se o último post das 8h não foi do pilar 7, hoje é pilar 7; se foi, hoje é um dos pilares 1 a 6.
 Público: donos, sócios, CEOs e diretores de empresas de médio e grande porte e empreendedores.
 
 ## Passo a passo
