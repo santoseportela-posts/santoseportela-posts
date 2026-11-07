@@ -1,10 +1,10 @@
 # Rotina das 12h30: terceiro post (complementar)
 
-Roda de segunda a sexta, perto das 12h30 (horário de Brasília). **Publicação automática, sem aprovação**
-(autorizada pelo cliente em 02/11/2026, que aprovou o Reels de teste). Fim de semana: não publicar.
+Roda todos os dias, inclusive sábado e domingo (pedido do cliente em 07/11/2026), perto das 12h30 (horário de Brasília). **Publicação automática, sem aprovação**
+(autorizada pelo cliente em 02/11/2026, que aprovou o Reels de teste).
 
-- **Segunda, quarta, sexta → Reels "Curiosidades da Santos & Portela"** (vídeo 9:16, 10–14 s).
-- **Terça, quinta → Carrossel educativo sobre licitações** (5–7 slides 4:5).
+- **Segunda, quarta, sexta e domingo → Reels "Curiosidades da Santos & Portela"** (vídeo 9:16, 10–14 s).
+- **Terça, quinta e sábado → Carrossel educativo sobre licitações** (5–7 slides 4:5).
 
 O formato muda de propósito: os posts das 8h e das 17h são imagens únicas. Não repetir aqui o tema
 nem a headline do post das 8h do mesmo dia; quando fizer sentido, **complementar** o tema do dia.
