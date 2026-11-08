@@ -1,0 +1,25 @@
+{
+ "fundo": "escuro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Somos certificados",
+    "ISO 9001, de gestão",
+    "da qualidade."
+   ],
+   "em": "Pela SGS.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "E ISO 27001,",
+    "de segurança",
+    "da informação."
+   ],
+   "em": "Seus dados, com método.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
