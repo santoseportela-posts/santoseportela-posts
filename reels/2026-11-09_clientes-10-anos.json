@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "36 clientes estão",
+    "conosco há mais",
+    "de 10 anos."
+   ],
+   "em": "31% da nossa carteira.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Contrato público",
+    "se ganha uma vez.",
+    "Confiança, todo ano."
+   ],
+   "em": "Licitação não admite improviso.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
