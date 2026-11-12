@@ -36,5 +36,20 @@
   "status": "publicado",
   "media_id": "18099749423537352",
   "tentativas": 1
+ },
+ {
+  "data": "2026-11-12",
+  "rotina": "12h30",
+  "pasta": "carrosseis/2026-11-12_pncp",
+  "tema": "O que é o PNCP e como usar: portal oficial criado pela Lei 14.133/2021 (art. 174), edital completo com anexos obrigatório no PNCP e extrato no DOU/jornal (art. 54), planos anuais, atas e contratos no portal; filtrar oportunidades com método; captação nacional + resumo executivo",
+  "complementa": "post das 8h não encontrado no histórico de hoje",
+  "fontes": [
+   "https://www.tce.sp.gov.br/legislacao-comentada/lei-14133-1o-abril-2021/174",
+   "https://licitacoesecontratos.tcu.gov.br/5-1-divulgacao-do-edital/"
+  ],
+  "slides": 7,
+  "status": "publicado",
+  "media_id": "18135248362827146",
+  "tentativas": 1
  }
 ]
