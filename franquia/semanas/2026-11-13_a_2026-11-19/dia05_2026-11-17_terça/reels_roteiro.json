@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "36 clientes estão",
+    "com a gente há",
+    "mais de 10 anos."
+   ],
+   "em": "31% da nossa carteira.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Essa relação",
+    "de longo prazo",
+    "viaja com a marca."
+   ],
+   "em": "Reputação que chega antes de você.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

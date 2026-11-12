@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Para quem pensa em franquia",
+   "linhas": [
+    "Não é",
+    "renda passiva.",
+    "É uma empresa",
+    "de verdade."
+   ],
+   "em": "Com 17 anos de estrutura ao lado.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Para quem gosta",
+    "de cliente, de região",
+    "e de resultado."
+   ],
+   "em": "A próxima unidade começa com uma conversa.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

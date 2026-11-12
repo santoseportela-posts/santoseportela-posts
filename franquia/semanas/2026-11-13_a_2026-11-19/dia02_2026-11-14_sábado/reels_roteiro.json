@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "17 anos de método",
+   "linhas": [
+    "Estratégia.",
+    "Execução.",
+    "Segurança."
+   ],
+   "em": "Licitação não admite improviso.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Escolher as",
+    "oportunidades certas.",
+    "Preparar cada etapa."
+   ],
+   "em": "Agora na sua região.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

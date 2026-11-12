@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Tecnologia própria",
+   "linhas": [
+    "Radar de",
+    "oportunidades.",
+    "Envio automatizado",
+    "para os clientes."
+   ],
+   "em": "A oportunidade certa chega.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "A tecnologia",
+    "organiza. Nossos",
+    "especialistas decidem."
+   ],
+   "em": "Licitação não admite improviso.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

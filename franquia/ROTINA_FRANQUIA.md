@@ -79,3 +79,20 @@ Windsor.ai `get_connectors`: procure no connector `instagram` a conta cujo nome 
 6. Registrar em `franquia/reels/historico.json`, commit/push, conta (seção "Conta"), aguardar ~60 s e publicar com
    `create_video_post` (`video_url` raw do MP4, `share_to_feed: true`, `caption`), seguindo o `PUBLICACAO.md`.
 7. Atualizar histórico, commit/push e mensagem curta ao cliente com o tema, a legenda e o resultado.
+
+## C. MODO SEMANAL MANUAL (em vigor desde 12/11/2026)
+Pedido do cliente em 12/11/2026: enquanto a conta @santoseportela.franquia não estiver conectada ao
+Windsor.ai, **nada é publicado automaticamente**. As rotinas diárias A e B ficam pausadas. Toda quinta-feira,
+uma tarefa semanal gera o pacote da semana seguinte (sexta a quinta: 7 posts + 7 Reels + legendas) e envia
+ao cliente, que agenda pelo painel do próprio Instagram (post 10h, Reels 19h).
+
+1. Pasta `franquia/semanas/AAAA-MM-DD_a_AAAA-MM-DD/` com uma subpasta por dia `diaNN_AAAA-MM-DD_<dia da semana>/`:
+   `post.jpg` (ou `post_01.jpg`… se carrossel), `legenda_post.txt`, `reels_roteiro.json`, `reels.mp4`, `legenda_reels.txt`.
+   Modelo: `franquia/semanas/2026-11-13_a_2026-11-19/`.
+2. Temas: linhas correspondentes da `PAUTA.md`; depois de 12/12, temas novos pelos pilares. Não repetir
+   headlines, temas ou composições das semanas anteriores (ler as pastas e legendas anteriores).
+   1 carrossel por semana no máximo.
+3. Mesmas regras de formato, fatos e QA das seções A e B. Conferir todas as imagens e os quadros dos Reels.
+4. `CALENDARIO_E_LEGENDAS.txt` na pasta da semana (mesmo formato do modelo), zip da pasta sem os .json.
+5. Commit/push. Enviar ao cliente: SendUserFile com o zip + SendUserMessage curta com as headlines da semana,
+   e PushNotification "Pacote da Franquia pronto: semana DD/MM a DD/MM".

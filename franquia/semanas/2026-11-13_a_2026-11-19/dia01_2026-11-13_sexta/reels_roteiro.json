@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "R$ 9,8 bilhões+",
+    "em licitações",
+    "ganhas em 17 anos."
+   ],
+   "em": "Pela marca que você pode representar.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "28 mil+ processos",
+    "disputados.",
+    "115+ clientes ativos."
+   ],
+   "em": "Agora, perto de você.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

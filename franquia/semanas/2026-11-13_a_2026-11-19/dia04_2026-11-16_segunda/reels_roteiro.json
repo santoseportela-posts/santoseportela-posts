@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Para contadores e advogados",
+   "linhas": [
+    "Seu cliente",
+    "quer vender",
+    "ao governo."
+   ],
+   "em": "Você vai indicar outra empresa?",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Com uma unidade,",
+    "a licitação vira",
+    "serviço seu."
+   ],
+   "em": "E o nosso time executa com você.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

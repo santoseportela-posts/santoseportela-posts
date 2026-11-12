@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Franqueado Santos & Portela",
+   "linhas": [
+    "Suporte jurídico.",
+    "Suporte comercial.",
+    "Marketing e",
+    "tráfego pago."
+   ],
+   "em": "Desde o primeiro dia.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Apoio operacional",
+    "e o nosso time",
+    "nas suas licitações."
+   ],
+   "em": "Você não começa sozinho.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
