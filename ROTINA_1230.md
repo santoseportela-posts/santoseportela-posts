@@ -33,8 +33,13 @@ Ferramentas: `kit/reels.py` + `kit/reels.html` (modelo: `reels/2026-11-04_campos
 3. Alternar `fundo` escuro/claro em relação ao último Reels.
 4. Gerar quadros de conferência (`--stills`) e **olhar**: texto cortado, sobreposição com os arcos,
    ortografia. Depois o vídeo completo: `python3 kit/reels.py roteiro.json reels/AAAA-MM-DD_slug.mp4`.
-5. Commit/push, aguardar ~60 s e publicar seguindo o **PUBLICACAO.md** (verificação + até 3 tentativas): Windsor.ai, connector `instagram`, action `create_video_post`,
-   account `17841467778795999`, `video_url` = raw.githubusercontent.com do MP4, `share_to_feed: true`, `caption`.
+   O comando também grava a **capa** `reels/AAAA-MM-DD_slug_capa.jpg` (1ª cena completa). Confira a capa:
+   o texto precisa caber no recorte central 3:4 da grade do perfil (entre y≈240 e y≈1680).
+5. Commit/push (MP4 **e** capa), aguardar ~60 s e publicar seguindo o **PUBLICACAO.md** (verificação + até 3 tentativas): Windsor.ai, connector `instagram`, action `create_video_post`,
+   account `17841467778795999`, `video_url` = raw.githubusercontent.com do MP4, **`cover_url` = raw.githubusercontent.com da `_capa.jpg`**,
+   `share_to_feed: true`, `caption`. **Nunca publicar sem `cover_url`**: o 1º quadro do vídeo é só o fundo vazio, e era ele que
+   virava a capa no perfil (reclamação do cliente em 13/11/2026). Se o Windsor.ai recusar o `cover_url`, use `thumb_offset: 3000`
+   no lugar (não os dois juntos).
 6. Registrar em `reels/historico.json` (data, curiosidade, fundo, media_id, status). Commit/push.
 
 ### Banco de curiosidades (fatos oficiais)

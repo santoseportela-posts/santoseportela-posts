@@ -3,6 +3,9 @@
 Uso:
   python3 kit/reels.py roteiro.json saida.mp4             # vídeo completo
   python3 kit/reels.py roteiro.json pasta/ --stills 2,6,10 # só quadros de conferência (JPEG)
+  python3 kit/reels.py roteiro.json saida.mp4 --capa       # só a capa (saida_capa.jpg)
+O modo completo também grava saida_capa.jpg (1080x1920, 1ª cena completa), usada como cover_url
+na publicação para o Reels não aparecer no perfil com a capa vazia.
 
 roteiro.json:
 { "fundo": "escuro" | "claro",
@@ -39,6 +42,15 @@ def main():
                 pg.evaluate(f"setT({t})")
                 pg.screenshot(path=f"{saida}/t{t:05.2f}.jpg", type="jpeg", quality=92)
             b.close(); print("stills ok"); return
+        # Capa do Reels: quadro com a 1ª cena já completa (o 1º quadro do vídeo é só o fundo vazio).
+        c0 = roteiro["cenas"][0]
+        t_capa = min(3.0, float(c0.get("dur", 4.5)) - 0.6)
+        pg.evaluate(f"setT({t_capa})")
+        capa = saida[:-4] + "_capa.jpg"
+        pg.screenshot(path=capa, type="jpeg", quality=92)
+        print("capa", capa, f"t={t_capa}s")
+        if "--capa" in sys.argv:
+            b.close(); return
         tmp = saida[:-4] + ".tmp.mp4"
         ff = subprocess.Popen([
             "ffmpeg", "-y", "-loglevel", "error",
