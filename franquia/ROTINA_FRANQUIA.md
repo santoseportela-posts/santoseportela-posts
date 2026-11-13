@@ -1,4 +1,4 @@
-# Rotinas diárias do Instagram @santoseportela.franquia
+# Rotinas diárias do Instagram @santoseportelafranquias
 
 Pedido do cliente em 12/11/2026: **publicação automática, como a da Santos & Portela**, com
 **1 post de feed e 1 Reels por dia**, todos os dias, para atrair consultores, especialistas, profissionais
@@ -19,11 +19,11 @@ Os horários ficam fora dos posts da @_santoseportelalicitacoes (8h, 12h30, 17h)
 6. Instruções do projeto "GABRIEL - DIRETOR CRIATIVO" e Base Mestre: identidade, densidade, anti-clichê, QA.
 
 ## Conta (OBRIGATÓRIO antes de publicar)
-Windsor.ai `get_connectors`: procure no connector `instagram` a conta cujo nome contém `santoseportela.franquia`.
+Windsor.ai `get_connectors`: procure no connector `instagram` a conta cujo nome contém `santoseportelafranquias`.
 - Encontrou: use o `id` dela em todas as chamadas (execute_action e get_data). **Nunca** publique no
   account `17841467778795999` (é a @_santoseportelalicitacoes).
 - Não encontrou: crie a peça normalmente, faça commit/push, registre no histórico `status: "aguardando_conta"`
-  e envie PushNotification começando com "NÃO PUBLICADO: conta @santoseportela.franquia ainda não conectada
+  e envie PushNotification começando com "NÃO PUBLICADO: conta @santoseportelafranquias ainda não conectada
   ao Windsor.ai", com o link raw do arquivo e a legenda pronta. Encerre.
 
 ## Regras fixas de formato
@@ -70,7 +70,7 @@ Windsor.ai `get_connectors`: procure no connector `instagram` a conta cujo nome 
 2. Tema: coluna Reels da `PAUTA.md` de hoje (ou tema novo pelos pilares). Não repetir o tema do post da manhã;
    complementar quando fizer sentido.
 3. Roteiro `franquia/reels/AAAA-MM-DD_slug.json` no formato do `kit/reels.py`: 2 cenas de 4,5–5 s + final
-   (2,6 s, logo Franquia e @santoseportela.franquia). Cena 1 com kicker curto ("Você sabia?", "Para quem
+   (2,6 s, logo Franquia e @santoseportelafranquias). Cena 1 com kicker curto ("Você sabia?", "Para quem
    trabalha com licitação", "Franqueado Santos & Portela"). Cada cena: até 4 linhas curtas + 1 linha em `em`.
    `fundo: "claro"`.
 4. Quadros de conferência: `python3 franquia/kit/reels.py roteiro.json /tmp/stills --stills 1,4,7,11` e **olhar**.
@@ -81,7 +81,7 @@ Windsor.ai `get_connectors`: procure no connector `instagram` a conta cujo nome 
 7. Atualizar histórico, commit/push e mensagem curta ao cliente com o tema, a legenda e o resultado.
 
 ## C. MODO SEMANAL MANUAL (em vigor desde 12/11/2026)
-Pedido do cliente em 12/11/2026: enquanto a conta @santoseportela.franquia não estiver conectada ao
+Pedido do cliente em 12/11/2026: enquanto a conta @santoseportelafranquias não estiver conectada ao
 Windsor.ai, **nada é publicado automaticamente**. As rotinas diárias A e B ficam pausadas. Toda quinta-feira,
 uma tarefa semanal gera o pacote da semana seguinte (sexta a quinta: 7 posts + 7 Reels + legendas) e envia
 ao cliente, que agenda pelo painel do próprio Instagram (post 10h, Reels 19h).
@@ -96,3 +96,7 @@ ao cliente, que agenda pelo painel do próprio Instagram (post 10h, Reels 19h).
 4. `CALENDARIO_E_LEGENDAS.txt` na pasta da semana (mesmo formato do modelo), zip da pasta sem os .json.
 5. Commit/push. Enviar ao cliente: SendUserFile com o zip + SendUserMessage curta com as headlines da semana,
    e PushNotification "Pacote da Franquia pronto: semana DD/MM a DD/MM".
+
+## Perfil
+Desde 12/11/2026 o perfil é **@santoseportelafranquias**. O pacote de 13/11 a 19/11 foi entregue antes da troca e
+fica como está; todo conteúdo novo (a partir de 20/11) usa @santoseportelafranquias.

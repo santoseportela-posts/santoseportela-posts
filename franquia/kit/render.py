@@ -1,4 +1,4 @@
-"""Renderizador de posts Santos & Portela FRANQUIA (@santoseportela.franquia).
+"""Renderizador de posts Santos & Portela FRANQUIA (@santoseportelafranquias).
 
 Uso: python3 render.py <post.html> <saida.png> <claro|escuro>
 

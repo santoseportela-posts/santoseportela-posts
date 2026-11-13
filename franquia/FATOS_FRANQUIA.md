@@ -1,4 +1,4 @@
-# Fatos oficiais da Santos & Portela FRANQUIA (@santoseportela.franquia)
+# Fatos oficiais da Santos & Portela FRANQUIA (@santoseportelafranquias)
 
 Única fonte de fatos para as rotinas da Franquia. **Nada fora deste arquivo** (e da Seção 1 das
 instruções do projeto "GABRIEL - DIRETOR CRIATIVO") pode virar post. Na dúvida, corte.
