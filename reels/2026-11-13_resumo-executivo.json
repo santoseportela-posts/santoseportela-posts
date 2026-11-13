@@ -1,0 +1,25 @@
+{
+ "fundo": "escuro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Cada oportunidade",
+    "chega ao cliente",
+    "em uma página."
+   ],
+   "em": "Um resumo executivo.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Órgão, objeto,",
+    "prazos, garantia",
+    "e link do edital."
+   ],
+   "em": "Para decidir rápido.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
