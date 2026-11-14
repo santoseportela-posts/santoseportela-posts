@@ -51,5 +51,18 @@
   "status": "publicado",
   "media_id": "18135248362827146",
   "tentativas": 1
+ },
+ {
+  "data": "2026-11-14",
+  "rotina": "12h30",
+  "pasta": "carrosseis/2026-11-14_habilitacao",
+  "tema": "Habilitação na Lei 14.133/2021: quatro frentes (art. 62), em regra depois do julgamento e só do mais bem classificado (art. 63, II), sem substituição de documentos após a entrega salvo diligência (art. 64), diligência para complementar ou atualizar documento vencido; controle de validade pela equipe",
+  "complementa": "post das 8h 'Conhecer a lei não é detalhe jurídico. É vantagem comercial.'",
+  "fontes": [
+   "https://licitacoesecontratos.tcu.gov.br/5-5-habilitacao-2/"
+  ],
+  "slides": 7,
+  "status": "tentando",
+  "tentativas": 0
  }
 ]
