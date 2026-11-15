@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Usamos Inteligência",
+    "Artificial para",
+    "analisar editais."
+   ],
+   "em": "E também preços e concorrentes.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "A tecnologia",
+    "acelera a análise.",
+    "A decisão é sua."
+   ],
+   "em": "Com dados na mesa.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
