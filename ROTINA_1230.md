@@ -23,6 +23,8 @@ O próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-70
 
 #santoseportela #licitacoes #mercadopublico #alphaville #curiosidades"
 
+(Legenda histórica, já publicada. Não use estas hashtags como modelo: siga o HASHTAGS.md.)
+
 ## Reels: curiosidades da Santos & Portela
 Ferramentas: `kit/reels.py` + `kit/reels.html` (modelo: `reels/2026-11-04_campos-alphaville.json`).
 1. Escolha UMA curiosidade do banco abaixo que ainda não esteja em `reels/historico.json`.
@@ -77,4 +79,4 @@ Ferramentas: `kit/render.py` (um HTML por slide, como em `posts/2026-11-02_novo-
 
 ## Legenda (ambos)
 Gancho, 2–4 frases, CTA "O próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039."
-e 3–5 hashtags. Mensagem final ao cliente com o resultado (e o arquivo).
+e 5 hashtags seguindo o **HASHTAGS.md**. Mensagem final ao cliente com o resultado (e o arquivo).

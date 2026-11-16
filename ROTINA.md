@@ -6,7 +6,8 @@ Publicação **automática, sem aprovação prévia**, conforme autorizado pelo 
 ## Fontes obrigatórias
 1. Instruções do projeto "GABRIEL - DIRETOR CRIATIVO" e a `Base_Mestre_FINAL_Gabriel_Santos_Portela.docx`.
    Use **somente** os fatos e números oficiais listados nas instruções do projeto (Seção 1).
-2. Este repositório: `kit/` (render.py, base.css, arcos.js, logos oficiais) e `posts/historico.json`.
+2. Este repositório: `kit/` (render.py, base.css, arcos.js, logos oficiais), `posts/historico.json` e `HASHTAGS.md`.
+   As hashtags dos posts antigos no histórico **não** são modelo: valem só as do HASHTAGS.md (desde 16/11/2026).
 
 ## Regras fixas de formato (aprovadas pelo cliente)
 - 1080×1350 (4:5), JPEG. Instagram não aceita 3:4 via API.
@@ -35,7 +36,7 @@ Público: donos, sócios, CEOs e diretores de empresas de médio e grande porte 
 4. Renderizar: `python3 kit/render.py posts/X.html /tmp/X.png escuro|claro`, converter para JPEG qualidade 90
    em `posts/X.jpg` e **abrir a imagem para conferir** (texto cortado, sobreposição com arcos ou logo, ortografia).
 5. QA de 15 itens da Base Mestre. Qualquer NÃO relevante: refazer. Nunca número, cliente ou prova inventados.
-6. Legenda: gancho, 2–4 frases, CTA "O próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039." e 3–5 hashtags.
+6. Legenda: gancho, 2–4 frases, CTA "O próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039." e 5 hashtags seguindo o **HASHTAGS.md** (nada de jargão de licitação, cidade ou marca).
 7. Acrescentar a entrada em `posts/historico.json`, commit e push para `main`.
 8. Aguardar ~60 s. URL da imagem:
    `https://raw.githubusercontent.com/santoseportela-posts/santoseportela-posts/main/posts/X.jpg`
