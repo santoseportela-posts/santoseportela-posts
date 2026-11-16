@@ -1,0 +1,27 @@
+{
+ "fundo": "escuro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Nossa primeira",
+    "filial, em Vitória,",
+    "cresceu tanto que",
+    "virou a matriz."
+   ],
+   "em": "Por três anos.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Hoje a matriz",
+    "está em Alphaville.",
+    "Vitória segue",
+    "como filial."
+   ],
+   "em": "Crescer sem ir embora.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
