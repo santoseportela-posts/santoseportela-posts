@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "A Nova Lei",
+    "de Licitações",
+    "é a 14.133/2021."
+   ],
+   "em": "A matriz domina cada etapa dela.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Esse domínio",
+    "vai junto",
+    "para a sua unidade."
+   ],
+   "em": "No suporte jurídico da matriz.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

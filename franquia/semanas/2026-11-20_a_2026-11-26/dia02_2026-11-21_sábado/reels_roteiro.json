@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "ISO 9001",
+    "e ISO 27001,",
+    "com certificação SGS."
+   ],
+   "em": "O padrão da marca que você representa.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Qualidade",
+    "na gestão.",
+    "Segurança da",
+    "informação."
+   ],
+   "em": "É esse padrão que está por trás de você.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

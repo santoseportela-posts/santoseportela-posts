@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Franqueado Santos & Portela",
+   "linhas": [
+    "Gestão de clientes,",
+    "CRM, financeiro",
+    "e tarefas."
+   ],
+   "em": "No sistema próprio da marca.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "A sua unidade",
+    "organizada",
+    "desde o",
+    "primeiro dia."
+   ],
+   "em": "Para você cuidar do cliente.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

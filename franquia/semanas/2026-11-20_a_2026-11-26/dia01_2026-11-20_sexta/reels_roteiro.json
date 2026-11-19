@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Franqueado Santos & Portela",
+   "linhas": [
+    "Marketing",
+    "e tráfego pago",
+    "trabalhando a marca",
+    "na sua região."
+   ],
+   "em": "A sua cidade conhecendo a sua unidade.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "E leads qualificados",
+    "da sua região",
+    "chegando até você."
+   ],
+   "em": "Você cuida do atendimento.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

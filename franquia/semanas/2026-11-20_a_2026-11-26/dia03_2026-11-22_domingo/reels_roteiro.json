@@ -1,0 +1,25 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Para quem é analista de licitações",
+   "linhas": [
+    "Você sabe",
+    "o que derruba",
+    "uma proposta."
+   ],
+   "em": "E sabe como evitar.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Esse conhecimento",
+    "pode virar",
+    "uma empresa sua."
+   ],
+   "em": "Com a marca e o time da Santos & Portela.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Para quem trabalha com licitação",
+   "linhas": [
+    "Certidões, contratos",
+    "e documentos",
+    "de cada cliente."
+   ],
+   "em": "Tudo no mesmo sistema.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Quem organiza",
+    "é o sistema.",
+    "Quem decide",
+    "é a equipe."
+   ],
+   "em": "É assim que a sua unidade trabalha.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}

@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Prefeitura, estado",
+    "e União compram",
+    "todos os dias."
+   ],
+   "em": "Nas três esferas.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "As empresas",
+    "da sua cidade",
+    "podem vender",
+    "para todos eles."
+   ],
+   "em": "A sua unidade mostra o caminho.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
