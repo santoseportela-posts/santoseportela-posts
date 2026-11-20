@@ -488,7 +488,7 @@
   {
     "data": "2026-11-20",
     "rotina": "17h-refazer",
-    "status": "pronto",
+    "status": "publicado",
     "headline": "A saúde pública vai continuar comprando. A pergunta é de quem.",
     "subheadline": "17 anos no mercado público.",
     "fundo": "claro",
@@ -498,8 +498,8 @@
     "mecanismo": "provocação",
     "arquivo": "refazer/2026-11-20_a-pergunta-e-de-quem.jpg",
     "legenda": "Hospitais, secretarias e consórcios de saúde vão continuar comprando em todo o Brasil. A dúvida é se a sua empresa vai estar na disputa ou assistindo de fora.\n\nQuem deixa para depois costuma tentar sozinho, com planilha e edital lido às pressas, na véspera da sessão. Em plena era da IA, isso é escolher entrar atrasado.\n\nA Santos & Portela está há 17 anos no mercado público, com 28 mil+ processos disputados, IA aplicada à análise de editais, preços e concorrentes, e um Key Account dedicado do primeiro edital à gestão do contrato. Estratégia, execução e segurança, para sua empresa entrar preparada.\n\nO próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039.\n\n#saude #empresarios #novosmercados #vendasparaogoverno #planejamento2027",
-    "media_id": null,
-    "tentativas": 0,
+    "media_id": "18658173247039425",
+    "tentativas": 1,
     "refaz_media_id": "17895053094430119"
   }
 ]
