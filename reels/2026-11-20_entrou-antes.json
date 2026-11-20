@@ -1,0 +1,26 @@
+{
+ "fundo": "claro",
+ "cenas": [
+  {
+   "kicker": "Você sabia?",
+   "linhas": [
+    "Seu concorrente",
+    "não é melhor",
+    "que você."
+   ],
+   "em": "Ele só entrou antes.",
+   "dur": 4.8
+  },
+  {
+   "linhas": [
+    "Nós entramos",
+    "em 2009.",
+    "Desde então, foram",
+    "28 mil+ processos."
+   ],
+   "em": "Em 17 anos.",
+   "dur": 4.8
+  }
+ ],
+ "final_dur": 2.6
+}
