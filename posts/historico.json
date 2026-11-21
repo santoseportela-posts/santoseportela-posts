@@ -521,7 +521,7 @@
   {
     "data": "2026-11-21",
     "rotina": "17h-refazer",
-    "status": "tentando",
+    "status": "publicado",
     "headline": "O mercado público homologou R$ 1 trilhão em 2025. Quanto ficou com a sua empresa?",
     "subheadline": "Hesitar também é uma decisão.",
     "fundo": "claro",
@@ -532,6 +532,7 @@
     "arquivo": "refazer/2026-11-21_quanto-ficou.jpg",
     "legenda": "Em 2025, o governo homologou R$ 1 trilhão em contratações em todo o Brasil. Quanto desse dinheiro passou pelo caixa da sua empresa?\n\nEnquanto a decisão fica para \"o ano que vem\", o mercado público segue comprando todos os dias, e hesitar também é uma escolha, com custo de faturamento.\n\nA Santos & Portela atua há 17 anos como o departamento de licitações completo de empresas de todo o país: captação nacional filtrada pelo seu perfil, tecnologia própria com IA para analisar editais e um Key Account dedicado do primeiro edital à gestão do contrato. São mais de 28 mil processos disputados e R$ 9,8 bilhões+ em licitações ganhas.\n\nFonte: MGI/PNCP, 2025.\n\nO próximo contrato começa com uma conversa. Fale com nosso time: (11) 93624-7039.\n\n#vendasparaogoverno #faturamento #donodeempresa #negociosnobrasil #crescimentoempresarial",
     "refeito_de": "18112464274692939",
-    "tentativas": 0
+    "tentativas": 1,
+    "media_id": "18080856656725508"
   }
 ]
