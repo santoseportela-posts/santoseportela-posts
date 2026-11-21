@@ -80,5 +80,19 @@
     "status": "publicado",
     "tentativas": 1,
     "media_id": "18123181994060457"
+  },
+  {
+    "data": "2026-11-21",
+    "rotina": "12h30",
+    "pasta": "carrosseis/2026-11-21_qual-edital-entrar",
+    "tema": "Como escolher em quais licitações entrar: objeto x capacidade (atestados na habilitação), prazo mínimo de 8 dias úteis em pregão de bens por menor preço (art. 55, I, a), garantia de proposta de até 1% do valor estimado (art. 58, §1º), logística e local de entrega; captação nacional, IA e resumo executivo",
+    "complementa": "post das 8h 'Sozinha, sua empresa aprende a cada edital. Nós já disputamos 28 mil.'",
+    "fontes": [
+      "https://licitacoesecontratos.tcu.gov.br/5-2-apresentacao-de-propostas/",
+      "https://licitacoesecontratos.tcu.gov.br/5-2-1-garantia-de-proposta/"
+    ],
+    "slides": 7,
+    "fundo": "escuro",
+    "status": "preparado"
   }
 ]
